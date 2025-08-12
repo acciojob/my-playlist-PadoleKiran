@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+
+body {
+	background-color: rgb(204,204,204);
+	/* contain: center */
+	align-content: center;
+}
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+ul {
+	padding: 0;
+}
+h1,h2 {
+	text-align:center;
+}
+li {
+	/* list-style: none; */
+	list-style-type: none;
+    text-align: center;
+    margin: 5px 0;
+}
+video {
+	background-color: rgb(255,255,255);
+	padding: border;
+	align-items: center;
+}
+
+.player_one, .player_two {
+	background-color: rgb(255,255,255);
+	justify-content: center;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	margin: 10px auto;
+	width: fit-content;
+}
